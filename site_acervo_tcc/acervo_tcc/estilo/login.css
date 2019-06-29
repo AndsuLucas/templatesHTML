@@ -1,0 +1,43 @@
+#login{
+	position: relative;
+	left: 35%;
+	top: 40px;
+	border: 2px solid #415561;
+	width: 25%;
+	height: 200px;
+	border-radius: 5px;
+	padding: 15px;
+	background-color: #a4a4a461;
+}#login #entrar{
+	position: absolute;
+	bottom: 5px;
+	left: 25%;
+	width: 20%;
+	margin-right:  5px;
+	cursor: pointer;
+	background-color: #ad1c1c;
+	color: white;
+	border: none;
+}#login #cadastrar{
+	position: absolute;
+	bottom: 5px;
+	right: 19%;
+	background-color: #ad1c1c;
+	border: none;
+	
+}#login  #cadastrar a{
+	text-decoration: none;
+	color: white;
+}#login #ts,#usuario,#senha{
+	border-radius: 3px;
+	margin: 3%;
+
+
+}#login img{
+	position: absolute;
+	right: 10px;
+	top: 30px;
+}#login div{
+	border-top: 2px solid black;
+	width: 100%;
+}

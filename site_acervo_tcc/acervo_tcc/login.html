@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>TCCps - Entrar</title>
+	<link rel="stylesheet" type="text/css" href="estilo/base.css">
+	<link rel="stylesheet" type="text/css" href="estilo/login.css">
+	<meta charset="utf-8">
+
+</head>
+<body>
+	<header>
+		<!-- Quero que o "CPS" da palavra "TCCps" fique vermelho. -->
+		<h1>TCCps</h1>
+		<img id="logo" src="imagens/etec.png">
+		<nav id="menu">
+			<div id="container-acoes">
+				<button>AÇÕES</button>
+				<div id="conteudo-acoes">
+					<a href="login.html">Fazer login</a>
+					<a href="cadastro.html">Cadastrar-se</a>
+					<a href="help.html">Como utilizar</a>
+				</div>
+			</div>
+
+			<a  id="home" href="home.html"><img  src="imagens/home.png"></a>
+		</nav>
+	</header>
+		<main>
+			<form  id="login" method="POST" action="controler/login.php">
+				
+				<label for="tipo-usuario">Entrar como:</label>
+				<select id="ts" name="tipo-usuario">
+					<option value="docente">Docente</option>
+					<option value="visitante">Visitante</option>
+					<option value="aluno">Aluno</option>
+				</select>
+				<br>
+				
+				<label for="usuario">Usuário:</label>
+				<input id="usuario" type="text" name="usuario" placeholder="usuario ou rm">
+				<br>
+				
+				<label for="senha">Senha:</label>
+				<input id="senha" type="password" name="senha" placeholder="senha ou cpf">
+				<br>
+				
+				<img src="imagens/key.png">
+				
+				<div>
+					<input id="entrar" type="submit" name="entrar" value="Entrar">
+					<button id="cadastrar">
+						<a href="cadastro.html">Cadastrar-se</a>
+					</button>
+				</div>
+			</form>
+		</main>
+</body>
+</html>

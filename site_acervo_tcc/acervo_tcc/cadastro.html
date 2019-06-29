@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TCCps - Cadastro</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo/base.css">
+	<link rel="stylesheet" type="text/css" href="estilo/cadastro.css">
+</head>
+<body>
+	<header>
+		<!-- Quero que o "CPS" da palavra "TCCps" fique vermelho. -->
+		<h1>TCCps</h1>
+		<img id="logo" src="imagens/etec.png">
+		<nav id="menu">
+			<div id="container-acoes">
+				<button>AÇÕES</button>
+				<div id="conteudo-acoes">
+					<a href="login.html">Fazer login</a>
+					<a href="cadastro.html">Cadastrar-se</a>
+					<a href="">Como utilizar</a>
+				</div>
+			</div>
+			<a  id="home" href="home.html"><img  src="imagens/home.png"></a>
+		</nav>
+	</header>
+	<main>
+		<img src="imagens/registro.png">
+		<form id="cadastro">
+			<label for="nome">Nome completo:</label>
+			<input type="text" name="nome" id="nome">	
+			<br>
+			<label for="dn">Data de nascimento:</label>
+			<input type="date" name="dn">
+			<br>
+			<label for="cpf">CPF:</label>
+			<input type="number" name="cpd">
+			<br>
+			<label for="senha">Senha:</label>
+			<input type="password" name="senha">
+			<br>
+			<label for="termos" id="termo">Concordo com os termos de uso.</label>
+			<input type="checkbox" name="termos" id="termos">
+			<br>
+			<input type="submit" name="enviar" value="Enviar">
+		</form>
+	</main>
+</body>
+</html>

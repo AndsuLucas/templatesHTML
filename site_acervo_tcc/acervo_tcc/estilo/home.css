@@ -1,0 +1,35 @@
+main{
+	margin-top: 4%;
+	border: 2px solid #bd8b8b;
+	width: 80%;
+	left: 10%;
+	right: 10%;
+	position: relative;
+	height: 500px;
+	background-color: white;
+}
+body{
+	background-color: #a4a4a461;
+}
+footer{
+	height: 100px;
+}
+#pesquisa input{
+	width: 60%;
+	margin-top: 1%;
+	margin-left: 20%;
+}
+#pesquisa button{
+	border: none;
+	background-color: #a90f0f;
+	color: white;
+	height: 20px;
+	cursor: pointer;
+}
+main p{
+/*essa parte do código é provisória e sofrerá mudanças.
+  Logo será atualizada conforme os requisitos levantados.
+*/
+	text-align: center;
+
+}
